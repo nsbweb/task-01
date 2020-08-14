@@ -1,13 +1,61 @@
-@media screen and (max-width: 991px) {
+@media screen and (max-width:1199px){
 body{ font-size: 18px; }
+#trapezoid { width:100%; }
+#trapezoid .shap-waves-sec svg { height:3.25em; min-height: 3.25em; }
+#trapezoid .bubles, #trapezoid #particles-js, ul.trapezoid, #trapezoid #background-wrap { width:60%; } 
+ul.trapezoid li span { width:11em; padding: 0;}
+ul.trapezoid li:nth-child(2) span:first-child { left: -8em; padding: 0.0em; color: #902bdf; }
+ul.trapezoid li:nth-child(3) span:first-child { left: -8em; padding: 0.5em; color: #492be1; width: 12em;}
+ul.trapezoid li:nth-child(4) span:first-child { left: -8em; padding: 0.5em; color: #2a7ce0; width: 14em;} 
+ul.trapezoid li:nth-child(5) span:first-child { left: -8em; padding: 0.5em; color: #2bc5e1; width: 16em;}
+
+ul.trapezoid li:nth-child(2) span:last-child { right: -8em; padding-left:0em; color: #902bdf; }
+ul.trapezoid li:nth-child(3) span:last-child { right: -8em; padding-left:1em; color: #492be1; width: 12em;}
+ul.trapezoid li:nth-child(4) span:last-child { right: -8em; padding-left:3em; color: #2a7ce0; width: 14em;} 
+ul.trapezoid li:nth-child(5) span:last-child { right: -8em; padding-left:5em; color: #2bc5e1; width: 16em;}
+
+ul.trapezoid li:nth-child(2) .shap-waves-sec span.lft { left: 4em; width: 9em;}
+ul.trapezoid li:nth-child(3) .shap-waves-sec span.lft { left: 6em; width: 7em;}
+ul.trapezoid li:nth-child(4) .shap-waves-sec span.lft { left: 8em; width: 5em;} 
+ul.trapezoid li:nth-child(5) .shap-waves-sec span.lft { left: 10em; width: 3em;}
+
+ul.trapezoid li:nth-child(2) .shap-waves-sec span.rht { right: 4em; width: 9em; }
+ul.trapezoid li:nth-child(3) .shap-waves-sec span.rht { right: 6em; width: 7em;}
+ul.trapezoid li:nth-child(4) .shap-waves-sec span.rht { right: 8em; width: 5em;} 
+ul.trapezoid li:nth-child(5) .shap-waves-sec span.rht { right: 10em; width: 3em;}
+}
+
+@media screen and (max-width: 991px) {
+body{ font-size: 14px; }
+.shap-waves-sec + .col .row.w-100 .col-6, 
+.shap-waves-sec + .col .row.w-100 .col-12 { padding-left: 0; padding-right: 0;}
 }
 
 @media screen and (max-width: 767px) {
-body { font-size: 16px; }
+body { font-size: 12px; }
 }
 
 @media screen and (max-width: 599px) {
-body { font-size: 14px; }
-ul.trapezoid:before { border-width: 0 14em 28em 0; }
-ul.trapezoid:after { border-width: 0 0 28em 14em; }
-}
+body { font-size: 9px; }
+ul.trapezoid:before { border-width: 0 8em 22em 0; }
+ul.trapezoid:after { border-width: 0 0 22em 8em; }
+#trapezoid .shap-waves-sec h3 { padding: 0 0.2em; }
+.funnel-end  { width:14em; height:10em; padding: 0.5em 2.2em; }
+.funnel-end .flask { height: 80%; }
+.funnel-end h4 { font-size: 1.2em; padding: 0.3em 0; }
+ul.trapezoid li:nth-child(3) span:first-child, ul.trapezoid li:nth-child(3) span:last-child { width:12em;}
+ul.trapezoid li:nth-child(4) span:first-child, ul.trapezoid li:nth-child(4) span:last-child { width:13em; }
+ul.trapezoid li:nth-child(5) span:first-child, ul.trapezoid li:nth-child(5) span:last-child { width:14.5em; }
+ul.trapezoid li:nth-child(4) span:last-child { padding-left: 2em;}
+ul.trapezoid li:nth-child(5) span:last-child { padding-left: 3.5em;}
+
+ul.trapezoid li:nth-child(2) .shap-waves-sec span.lft { left: 4em; width: 6em; }
+ul.trapezoid li:nth-child(3) .shap-waves-sec span.lft { left: 6em; width: 4em;}
+ul.trapezoid li:nth-child(4) .shap-waves-sec span.lft { left: 7.5em; width: 3em;} 
+ul.trapezoid li:nth-child(5) .shap-waves-sec span.lft { left: 8.5em; width: 2em;}
+
+ul.trapezoid li:nth-child(2) .shap-waves-sec span.rht { right: 4em; width: 5em; }
+ul.trapezoid li:nth-child(3) .shap-waves-sec span.rht { right: 6em; width: 4em;}
+ul.trapezoid li:nth-child(4) .shap-waves-sec span.rht { right: 7.5em; width: 3em;} 
+ul.trapezoid li:nth-child(5) .shap-waves-sec span.rht { right: 8.5em; width: 2em;}
+}   
