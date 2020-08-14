@@ -28,10 +28,10 @@ ul.trapezoid:after { border-width: 0 0 36em 18em; border-left-color: transparent
 ul.trapezoid li { padding: 0em 0; margin:0; margin-bottom: 0; transition: all 0.3s cubic-bezier(0.55, 0.085, 0.68, 0. 3); position: relative; }
 ul.trapezoid li:nth-child(1) { padding: 1em 0; }
 ul.trapezoid li:nth-child(1) { background-color: #FFFFFF; border-radius: 1em; }
-ul.trapezoid li:nth-child(2) { background-color: #c1ced7; }
-ul.trapezoid li:nth-child(3) { background-color: #c1ced7; } 
-ul.trapezoid li:nth-child(4) { background-color: #c1ced7; }
-ul.trapezoid li:nth-child(5) { background-color: #c1ced7; }
+ul.trapezoid li:nth-child(2) { background-color: rgba(152,56,226, 0.30); }
+ul.trapezoid li:nth-child(3) { background-color: rgba(73,43,225, 0.30); } 
+ul.trapezoid li:nth-child(4) { background-color: rgba(45,125,224, 0.30); }
+ul.trapezoid li:nth-child(5) { background-color: rgba(51,199,225, 0.30); }
 /* ul.trapezoid li::before { margin: 0 auto; height: 10px; border-radius: 50%; background: #D5D5D5; border: 0 solid rgba(255, 255, 255, 0.38); box-shadow: inset 0px 6px 10px 0px rgba(0, 0, 0, 0.33); content: ''; position: absolute; top: -5px; left: 0; width: 100%; margin: auto; right: 0;  } */
 ul.trapezoid li span { content: ''; position: absolute; width: 14.5em; background: transparent; top:0; left: -20em;  height:100%; z-index: 2; display: flex; align-items: center!important; /*background: #ccc;*/ border-top:0.2em dotted rgba(255,255,255,0.8);}
 ul.trapezoid li:last-child span {border-bottom:0.2em dotted rgba(255,255,255,0.8);}
@@ -311,3 +311,8 @@ ul.trapezoid li:nth-child(5) .shap-waves-sec span.rht { right: 11em; padding-lef
 	position: absolute;
 	width: 2em;
 }
+
+
+
+
+canvas#sign-Waves {clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);}
